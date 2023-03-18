@@ -1,4 +1,4 @@
-#includ <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
@@ -20,7 +20,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-	        printf("%d the number is negative \n", n);
+	  	printf("%d the number is negative \n", n);
 	}
 	else
 	{
