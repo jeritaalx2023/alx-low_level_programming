@@ -24,7 +24,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d the number is zero \n", n)
+		printf("%d the number is zero \n", n);
 	}
 	/* your code goes there */
 	return (0);
