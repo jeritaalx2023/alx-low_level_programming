@@ -1,10 +1,13 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
+
 /**
  * _strcat - concatenates two strings
  * @dest: input value
  * @src: input value
  *
- * Return: void
+ * Return: 0
  */
 char *_strcat(char *dest, char *src)
 {
