@@ -1,10 +1,8 @@
 section .text
-	global  _start
 	extern    printf
+	global main
+main:
 
-
-_start:
-	mov edx, len
 	mov ecx, msg
 	mov ebx, 1
 	mov eax, 4
@@ -15,5 +13,6 @@ _start:
 	int 0*080
 
 section .data
-	msg db "Hello, Holberton",0*a
-	len equ $ -msg
+	msg db "Hello, Holberton",0
+	fmt:	db "%s", 10, 0
+
