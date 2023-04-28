@@ -7,10 +7,8 @@ main:
 	mov ebx, 1
 	mov eax, 0
 	call  printf
-	int 0*80
 
 	mov eax, 0
-	int 0*080
 	ret
 
 section .data
