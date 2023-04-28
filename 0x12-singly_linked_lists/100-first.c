@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void print_intro(void) __attribute__ ((constructor));
+
 /**
  * print_intro - prints output  before the main
  * function is executed
